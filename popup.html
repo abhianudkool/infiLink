@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Getting Started Extension's Popup</title>
-    <style>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+<!--    <style>
       body {
         min-width: 357px;
         overflow-x: hidden;
@@ -16,7 +17,7 @@
         height: 75px;
       }
     </style>
-
+-->
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
@@ -26,7 +27,19 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div><p>This is popup.html</p>
+    <div style="background-color:grey; width:250px;height:50px;position:relative;"><p>This is popup.html</p>
+    </div>
+    <div style="overflow:auto;height:125px;" >
+    <div style="width:250px;position:relative;"><p>1</p>
+    </div>
+    <div style="width:250px;position:relative;"><p>2</p>
+    </div>
+    <div style="width:250px;position:relative;"><p>3</p>
+    </div>
+    <div style="width:250px;position:relative;"><p>4</p>
+    </div>
+    <div style="width:250px;position:relative;"><p>5</p>
+    </div>
     </div>
 
   </body>
