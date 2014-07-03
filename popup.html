@@ -5,47 +5,24 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <script src="./json2.js"></script>
     <script src="./jstorage.js"></script>
-<!--    <script> /* $.jStorage is now available */ </script> -->
-<!--    <style>
-      body {
-        min-width: 357px;
-        overflow-x: hidden;
-      }
 
-      img {
-        margin: 5px;
-        border: 2px solid black;
-        vertical-align: middle;
-        width: 75px;
-        height: 75px;
-      }
-    </style>
--->
-    <!--
+<!--    <script> /* $.jStorage is now available */ </script>
+<!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
-<!--    <script src="popup.js"></script> -->
-<!--    <script src="test.js"></script> -->
-     <script type="text/javascript">
-		function abc(){
-			$.jStorage.set("a",1);
-        		$.jStorage.set("b",2);
-        		$.jStorage.set("c",3);
-        		$.jStorage.set("d",4);
 
-	        	value = $.jStorage.get("a");
-       			alert(value);
-		}
-     </script>
+    <script src="popup.js"></script>
+-->
+
+
   </head>
   <body>
     <div style="background-color:grey; width:250px;height:50px;position:relative;"><p>This is popup.html</p>
     </div>
-    <button onclick="abc()"></button>
-
+    <button id="button1">Submit</button>
+    <script src="test.js"></script>
     <div style="width:250px;position:relative;"><p>1</p>
     </div>
     <div style="width:250px;position:relative;"><p>2</p>
